@@ -62,7 +62,7 @@ title: Resume
 
 <br/>
 
-## > relevant Courses 📚
+## > relevant courses 📚
 
 * **Electronics:**
 
