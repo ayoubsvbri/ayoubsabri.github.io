@@ -19,7 +19,7 @@ layout: compress
     <meta property="og:type" content="profile">
 
     {% seo %}
-    
+
     {% include favicon.html %}
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
@@ -51,4 +51,9 @@ layout: compress
     {% include icons.html %}
 
 </body>
+
+{% if page.title != "Home" %}
+    {% include nav.html %}
+{% endif %}
+
 </html>
