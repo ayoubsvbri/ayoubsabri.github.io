@@ -1,0 +1,23 @@
+I"/<p><img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" alt="Screenshot" /></p>
+
+<p>Example of project - Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a>. This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
+
+<hr />
+
+<p>What has inside?</p>
+
+<ul>
+  <li>Gulp</li>
+  <li>BrowserSync</li>
+  <li>Stylus</li>
+  <li>SVG</li>
+  <li>Travis</li>
+  <li>No JS</li>
+  <li><a href="https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F">98/100</a></li>
+</ul>
+
+<hr />
+
+<p><a href="http://sergiokopplin.github.io/indigo/">Check it out</a> here.
+If you need some help, just <a href="http://github.com/sergiokopplin/indigo/issues">tell me</a>.</p>
+:ET
