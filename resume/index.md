@@ -5,6 +5,8 @@ title: Resume
 
 # __R É S U M É__
 
+---
+
 ## > education 🎓
 
 * **2019-2020** [École de Technologie Supérieure] - Montréal, Canada
@@ -13,13 +15,13 @@ title: Resume
 
 * **2017-2020** [Polytech Sorbonne] - Paris, France
 
-	Embedded Systems Engineering, 3 years graduating program
+	Embedded Systems Engineering, 3 years Master Science program
 
 * **2015-2017** [Associate's Degree] - Metz, France
 
 	Electronics, First Class Honours
 
-<br/>
+---
 
 ## > skills 🔧
 
@@ -31,7 +33,7 @@ title: Resume
 
 * **Tools:** Git, make, bash, LaTeX, U-Boot, BuildRoot, BusyBox, QEMU
 
-<br/>
+---
 
 ## > projects 🚀
 
@@ -45,22 +47,22 @@ title: Resume
 
 	* **Drone remote control:** built the RTOS and developed the firmware <font size="2">(TI OMAP3630 - ARM Cortex A8)</font>
 
-	* **IoT System:** developed a system for monitoring parameters affecting plants growth
+	* **IoT system:** developed a system for monitoring parameters affecting plants growth
 	Cloud solution based on Sigfox and Microsoft Azure <font size="2">(STM32L432KC - ARM Cortex M4)</font>
 
 	* **Line tracking robot:** interdisciplinary project <font size="2">(LPC1768 - ARM Cortex M3)</font>
 
-<br/>
+---
 
 ## > experience 👔
 
-* **Embedded IoT Intern**, [Zerynth] (June-August 2019)
+* **Embedded IoT Intern**, [Zerynth] <font size="2">(June-August 2019)</font>
 
-* **IoT Prototype Intern**, [Azura Group] (June-July 2018)
+* **IoT Prototype Intern**, [Azura Group] <font size="2">(June-July 2018)</font>
 
-* **Arduino Developer Intern**, [CERAH] (May-June 2016)
+* **Arduino Developer Intern**, [CERAH] <font size="2">(May-June 2016)</font>
 
-<br/>
+---
 
 ## > relevant courses 📚
 
@@ -74,19 +76,18 @@ Telecommunications, Signal Processing, Power Management for Embedded Systems
 	Algorithms, Microcontrollers and Processors Architecture, Networks & Protocols, Co-design,
 Compilers, Object-Oriented Programming, Operating Systems, Linux Device Drivers
 
-<br/>
+---
 
 ## > languages 🌐
 
-* 🇬🇧 **English**: Advanced [ TOEIC score: 960 (C1) ]
+* 🇬🇧 **English**: advanced [ TOEIC score: 960 (C1) ]
 
-* 🇮🇹 **Italian**: Native Speaker
+* 🇮🇹 **Italian**: native speaker
 
-* 🇫🇷 **French**: Bilingual
+* 🇫🇷 **French**: bilingual
 
-* 🇦🇪 **Arabic**: Basic understanding
+* 🇦🇪 **Arabic**: basic knowledge
 
-<br/>
 
 [École de Technologie Supérieure]: https://www.etsmtl.ca/
 [Polytech Sorbonne]: https://www.polytech.sorbonne-universite.fr/
