@@ -2,34 +2,88 @@
 title: "tawqeeTeX, a LaTex generator for time prayer schedules"
 layout: post
 date: 2019-09-23 22:10
-tag: jekyll
-image: https://koppl.in/indigo/assets/images/jekyll-logo-light-solid.png
+tag:
+- LaTeX
+- prayer
+- schedule
+- islam
+- python
+image: # add image here
 headerImage: true
 projects: true
-hidden: true # don't count this post in blog pagination
-description: "This is a simple and minimalist template for Jekyll for those who likes to eat noodles."
+hidden: false # don't count this post in blog pagination
+description: ""
 category: project
-author: johndoe
+author: ayoubsabri
 externalLink: false
 ---
 
-![Screenshot](https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png)
+This tool will allow you to generate time prayer schedules in the blink of an eye 😉
 
-Example of project - Indigo Minimalist Jekyll Template - [Demo](http://sergiokopplin.github.io/indigo/). This is a simple and minimalist template for Jekyll for those who likes to eat noodles.
-
----
-
-What has inside?
-
-- Gulp
-- BrowserSync
-- Stylus
-- SVG
-- Travis
-- No JS
-- [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F)
+![Screenshot](https://imgur.com/9w8Tsnw.png)
 
 ---
 
-[Check it out](http://sergiokopplin.github.io/indigo/) here.
-If you need some help, just [tell me](http://github.com/sergiokopplin/indigo/issues).
+## Dependencies
+* [python3](https://www.python.org/downloads/)
+* [pylatex](https://pypi.org/project/PyLaTeX/) (use pip3)
+* pdflatex
+
+---
+
+## Documentation
+
+Find a full description of the tool [here](https://ayoubsabri.github.io/tawqeetex/).
+
+## How to use tawqeeTeX
+
+To start the generation of the schedule you need to fill these parameters:
+* city
+* country
+* month
+* year
+
+Here is an exemple:
+
+```bash
+$ python3 tawqeeTeX.py Milano Italy 09 2019
+```
+
+_tawqeeTeX_ allows you to configure the generation of the time schedule setting other parameters such as:
+* language
+* calculation method
+* hijri calendar adjustment
+
+For example:
+
+```bash
+$ python3 tawqeeTeX.py Milano Italy 09 2019 --language it --method 1 --adj 1
+```
+
+This configuration will create a time schedule in italian using the MWL (Muslim World League) method. The adjustment
+will simply apply an offset of day on the hijri calendar (negative offsets are accepted too).
+
+Enter the following command in order to display a menu that includes a brief description of all available options:
+
+```bash
+$ python3 tawqeeTeX.py --help
+```
+
+---
+
+## Output
+
+_tawqeeTeX_ will automatically create a .pdf document named [city]-[month]-[year].pdf
+A .tex file with the same name is also provided in order to give users the possibility to customize theirs tables.
+
+---
+
+## Credits
+
+I would like to thank [Islamic Network](https://github.com/islamic-network) for [Al-Adhan API](https://github.com/islamic-network/api.aladhan.com) on which I based this project.
+
+---
+
+## Contact
+
+If you need some help or find some bug, just contact me at <tawqeeTeX@gmail.com>.

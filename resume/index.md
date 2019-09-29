@@ -58,9 +58,15 @@ title: Resume
 
 * **Embedded IoT Intern**, [Zerynth] <font size="2">(June-August 2019)</font>
 
+	Designed an IoT solution for the monitoring of a plant nursery. The system was based on ESP32, powered by solar energy and implemented GSM connectivity.
+
 * **IoT Prototype Intern**, [Azura Group] <font size="2">(June-July 2018)</font>
 
+	Carried out range and power tests for a LoRaWAN connection between antennas and gateway.
+
 * **Arduino Developer Intern**, [CERAH] <font size="2">(May-June 2016)</font>
+
+	Implemented a speed measurement system for a machine checking the resistance of wheelchair wheels. Helped with the design of a laser scanner which allows the digitization of prosthetic interlocking devices.
 
 ---
 
