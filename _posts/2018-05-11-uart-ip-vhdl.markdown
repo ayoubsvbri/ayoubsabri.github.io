@@ -23,7 +23,7 @@ externalLink: false
 
 ## Repository
 
-Find all the source code and documentation [here](https://github.com/AyoubSabri/UART_US_VHDL).
+You can find the source code and documentation [here](https://github.com/AyoubSabri/uart-ip-vhdl).
 
 ---
 
@@ -49,8 +49,14 @@ Here are the main features:
 
 ---
 
+## Reference design
+
+A reference design has been included in the repository. The example read data from an ultra-sound distance sensor and send the measured value in cm through the UART transmission line.
+
+---
+
 ## Deliverables
 
 - Synthesizable VHDL source code
-- Verification testbenches
-- User guide
+- Basic verification testbenches
+- Detailed user guide
