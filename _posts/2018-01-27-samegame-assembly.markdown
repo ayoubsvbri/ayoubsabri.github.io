@@ -34,10 +34,7 @@ Samegame is a puzzle game released in 1985 in Japan by Kuniaki Moribe. The rules
 
 _from [wikipedia](https://en.wikipedia.org/wiki/SameGame)_
 
-As part of a school assignment of computer architecture class I had to implement this game in assembly. The target architecture was MIPS, a 32 bit
-processor with a reduced set of instructions (RISC).
-
-The source code is still in french but it will soon translated in English.
+As part of a school assignment of computer architecture class I had to implement this game in assembly. The target architecture was MIPS, a 32 bit processor with a reduced set of instructions (RISC).
 
 In the future I will probably write a blog post where I will detail the algorithm behind the game and provide some explanations about on assembly programming, stay tuned!
 
@@ -45,4 +42,4 @@ In the future I will probably write a blog post where I will detail the algorith
 
 ## Setup
 
-In order to execute the code you will need to install [MARS](http://courses.missouristate.edu/kenvollmar/mars/download.htm) on your machine, a MIPS that you can execute on all platforms with Java. MARS is an IDE that allows you to simulate and execute MIPS instructions. The only thing you need to do is to open the file samegame.asm and to click on Run. Then just follow the instructions on the console and enjoy the game 😁
+In order to execute the code you will need to install [MARS](http://courses.missouristate.edu/kenvollmar/mars/download.htm) on your machine, a MIPS that you can execute on all platforms with Java. MARS is an IDE that allows you to simulate and execute MIPS instructions. The only thing you need to do is to open the file _samegame.asm_ and to click on Run. Then just follow the instructions on the console and enjoy the game 😁
