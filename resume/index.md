@@ -29,9 +29,9 @@ title: Resume
 
 * **Hardware:** ARM Cortex, SoC, Altera & Xilinx FPGA, Arduino, Raspberry
 
-* **Software:** Matlab, Keil uVision, mbed, Qt Creator, PSpice, Quartus, ModelSim, Microsoft Office
+* **Software:** Eclipse, Matlab, STM32CubeMX, mbed, Qt Creator, PSpice, Quartus, ModelSim
 
-* **Tools:** Git, make, bash, LaTeX, U-Boot, BuildRoot, BusyBox, QEMU
+* **Tools:** Git, make, bash, LaTeX, U-Boot, BuildRoot, BusyBox, QEMU, Posix API
 
 ---
 
@@ -45,7 +45,7 @@ title: Resume
 
 * C/C++
 
-	* **Drone remote control:** built the RTOS and developed the firmware <font size="2">(TI OMAP3630 - ARM Cortex A8)</font>
+	* **Drone remote control:** built the RTOS based on a Linux kernel and developed a multi-task real-time optimized firmware <font size="2">(TI OMAP3630 - ARM Cortex A8)</font>
 
 	* **IoT system:** developed a system for monitoring parameters affecting plants growth
 	Cloud solution based on Sigfox and Microsoft Azure <font size="2">(STM32L432KC - ARM Cortex M4)</font>
@@ -94,7 +94,17 @@ Compilers, Object-Oriented Programming, Operating Systems, Linux Device Drivers
 
 * 🇦🇪 **Arabic**: basic knowledge
 
+---
 
+## > others 💡
+
+* Volunteer at [VivaTech] in 2018 and 2019
+
+* 4th price at [SoNumAir] hackathon
+
+
+[SoNumAir]: https://www.atmo-hdf.fr/projets/projets-en-cours/sonumair.html
+[VivaTech]: https://vivatechnology.com/
 [École de Technologie Supérieure]: https://www.etsmtl.ca/
 [Polytech Sorbonne]: https://www.polytech.sorbonne-universite.fr/
 [Associate's Degree]: https://www.univ-lorraine.fr/
