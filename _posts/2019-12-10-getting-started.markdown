@@ -33,7 +33,7 @@ Today you will see how to setup a project from scratch with _STM32CubeMX_ and ma
 
 ## setup the toolchain
 
-I really recommend [this][1] guide. It has written for _macOS_ but it shouldn't be that different for _Linux_. Follow the steps and at the end you should have installed on your machine:
+I really recommend [this][1] guide. It has been written for _macOS_ but it shouldn't be that different for _Linux_. Follow the steps and at the end you should have installed on your machine:
 - _GNU ARM toolchain_ (compiler, debugger and others...)
 - _STCubeMX_ (makefile generation, Hardware Abstraction Layer and Low Level drivers)
 - _STCubeProgrammer_ or _st-flash_ (flash/program your board)
