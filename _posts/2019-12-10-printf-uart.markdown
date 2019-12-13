@@ -111,7 +111,7 @@ As you can see in the image below, the _STLink_ embedded on the board is directl
 
 ![Image](/assets/images/blog/1/schematic.png)
 
-Our previous configuration was sending the `printf()` messages to the UART2 which was connected to anything (not so smart).
+Our previous configuration was sending the `printf()` messages to the UART2 which was not connected to anything (not so smart).
 
 Time to fix this! Go back to your _STM32CubeMX_ project and replace the UART2 with the LPUART1 keeping the same settings and re-generate the code (make sure that the new changes have been added to the source files; re-add the deleted lines if needed).
 
