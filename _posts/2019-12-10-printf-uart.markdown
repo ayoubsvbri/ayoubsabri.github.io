@@ -24,8 +24,6 @@ In this tutorial, our goal is to be able to send debug messages with a microcont
 
 First of all, we are going to configure a new project (click [here][2] if you don't remember how to do it). Select your board from the menu and when you're asked if you want to configure the peripherals to their default mode click _yes_.
 
-<!-- ![Image](/assets/images/blog/1/setup.png) -->
-
 In this way _STM32CubeMX_ will automatically set the LED and the default UART interface for you. In my case it's the UART2.
 
 Configure it to the following settings:
@@ -38,7 +36,7 @@ Configure it to the following settings:
 
 Don't forget to set the _Toolchain/IDE_ field of the _Project Manager_ tab to _Makefile_.
 
-Now that we are done with the configuration we can let _STM32CubeMX_ generate the code for us by clicking on the  _Generate Code_ button on the top right corner of the window. Let's have a look to it!
+Now that we are done with the configuration we can let _STM32CubeMX_ generate the code for us by clicking on the  _Generate Code_ button on the top right corner of the window. Let's have a look!
 
 ## printf statements and UART
 
@@ -64,14 +62,14 @@ __attribute__((weak)) int __io_putchar(int ch)
 }
 ```
 
-Here we are explicitly redirecting the standard output to the UART2.
+Here we are explicitly redirecting the standard output to the UART2. As the original definition of `__io_putchar()` in the standard library is made using the `weak` attribute, there won't be any problem for the compiler to redefine it.
 
 Then, move back to `main.c` and insert the following lines in the `while(1)` loop:
 
 ```c
 while(1){
     printf("Hello world!\r\n");
-    for(i = 0; i < 500000; i++){}       // wait
+    for(int i = 0; i < 500000; i++){ }       // wait
 }
 ```
 
