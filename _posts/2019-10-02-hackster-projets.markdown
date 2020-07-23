@@ -17,7 +17,7 @@ author: ayoubsabri
 externalLink: false
 ---
 
-![Screenshot](https://storage.sbg1.cloud.ovh.net/v1/AUTH_669d7dfced0b44518cb186841d7cbd75/dev_medias/build_hackster.png)
+![Image](/assets/images/hackster.png)
 
 ---
 

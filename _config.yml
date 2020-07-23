@@ -1,6 +1,6 @@
 # main text of home
 name: Ayoub Sabri
-bio: "> walk it like i talk it"
+bio: "> embedded systems engineer"
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -34,10 +34,10 @@ permalink: /:title/
 #   categories: [blog] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: ayoub.sabri22/
+# facebook: ayoub.sabri22/
 # twitter: mytwitter
 # google: mygoogle
-instagram: ayoubsvbri
+# instagram: ayoubsvbri
 # pinterest: mypinterest
 linkedin: ayoubsabri
 # youtube: myyoutube

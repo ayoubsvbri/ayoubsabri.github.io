@@ -17,7 +17,7 @@ author: ayoubsabri
 externalLink: false
 ---
 
-![Screenshot](https://imgur.com/vgQXNkq.png)
+![Image](/assets/images/blog/1/uart.png)
 
 ---
 

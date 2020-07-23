@@ -27,11 +27,11 @@ title: Resume
 
 * **Programming Languages:** C, C++, Python, VHDL, Assembly, Java, HTML/CSS, SQL
 
-* **Hardware:** ARM Cortex, SoC, Altera & Xilinx FPGA, Arduino, Raspberry
+* **Hardware:** ARM Cortex, SoC, KiCad, Altera & Xilinx FPGA, Arduino, Raspberry
 
-* **Software:** Eclipse, Matlab, STM32CubeMX, mbed, Qt Creator, PSpice, Quartus, ModelSim
+* **Software:** Eclipse, IAR, STM32Cube, Keil uVision, mbed, Qt Creator, Quartus, ModelSim
 
-* **Tools:** Git, make, bash, LaTeX, U-Boot, BuildRoot, BusyBox, QEMU, Posix API
+* **Tools:** FreeRTOS, Posix API, Git, make, bash, LaTeX, U-Boot, BuildRoot, QEMU
 
 ---
 
@@ -56,6 +56,10 @@ title: Resume
 
 ## > experience 👔
 
+* **Embedded Software Intern**, [STMicroelectronics] <font size="2">(January-July 2020)</font>
+
+	Enhancement of a software layer allowing the abstraction of a communication based on a serial interface with DMA. This module supports UART, I2C and SPI protocols.
+
 * **Embedded IoT Intern**, [Zerynth] <font size="2">(June-August 2019)</font>
 
 	Designed an IoT solution for the monitoring of a plant nursery. The system was based on ESP32, powered by solar energy and implemented GSM connectivity.
@@ -66,7 +70,7 @@ title: Resume
 
 * **Arduino Developer Intern**, [CERAH] <font size="2">(May-June 2016)</font>
 
-	Implemented a speed measurement system for a machine checking the resistance of wheelchair wheels. Helped with the design of a laser scanner which allows the digitization of prosthetic interlocking devices.
+	Implemented a speed measurement system for a machine checking the resistance of wheelchair wheels. Helped with the design of a laser scanner which allows the digitalization of prosthetic interlocking devices.
 
 ---
 
@@ -102,12 +106,12 @@ Compilers, Object-Oriented Programming, Operating Systems, Linux Device Drivers
 
 * 4th price at [SoNumAir] hackathon
 
-
 [SoNumAir]: https://www.atmo-hdf.fr/projets/projets-en-cours/sonumair.html
 [VivaTech]: https://vivatechnology.com/
 [École de Technologie Supérieure]: https://www.etsmtl.ca/
 [Polytech Sorbonne]: https://www.polytech.sorbonne-universite.fr/
 [Associate's Degree]: https://www.univ-lorraine.fr/
+[STMicroelectronics]: https://www.st.com
 [Zerynth]: https://www.zerynth.com
 [Azura Group]: https://www.azura-group.com/en
 [CERAH]: https://www.invalides.fr/le-centre-detudes-et-de-recherche-sur-lappareillage-des-handicapes
